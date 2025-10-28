@@ -1,0 +1,12 @@
+name : git hub Action
+on: 
+ push:
+  branches:
+    - main
+jobs:
+  test:
+   runs-on: ubuntu-latest
+   steps:
+    - name: print hello tst
+      run: echo "heelo oussama
+    
