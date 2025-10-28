@@ -8,5 +8,5 @@ jobs:
    runs-on: ubuntu-latest
    steps:
     - name: print hello tst
-      run: echo "heelo oussama
+      run: echo "heelo oussama"
     
