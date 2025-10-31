@@ -1,6 +1,6 @@
 #!bin/bash
 EXPECTED="Hello, Alice!"
-OUTPUT=$(node -e "console.log(require('./src/app').default('Alice'))")
+OUTPUT=$(node -e "console.log(require('./src/App.js').default('Alice'))")
 if [ "$OUTPUT" == "$EXPECTED" ]; then
     echo "Test passed!"
     exit 0
