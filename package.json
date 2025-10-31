@@ -1,0 +1,9 @@
+{
+    "name": "actiongithub_test",
+    "version": "1.0.0",
+    "main": "src/App.js",
+    "scripts": {
+        "test": "bash src/test.sh"
+    },
+    "dependencies": {}
+}
